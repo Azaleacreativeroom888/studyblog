@@ -11,7 +11,7 @@ body {
 
 /* 左 */
 .sidebar {
-  width: 100px;   /* ← ここを細く */
+  width: 150px;   /* ← ここを細く */
   background: #202123;
   color: #fff;
   padding: 16px;  /* 少しだけ詰める */
