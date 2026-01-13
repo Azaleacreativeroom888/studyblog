@@ -11,25 +11,23 @@ body {
 
 /* 左 */
 .sidebar {
-  width: 150px;   /* ← ここを細く */
+  width: 200px;
   background: #202123;
   color: #fff;
-  padding: 16px;  /* 少しだけ詰める */
+  padding: 16px;
 }
 
-
 .sidebar h1 {
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 14px;
+  margin-bottom: 16px;
 }
 
 .sidebar a {
   display: block;
   color: #d1d5db;
   text-decoration: none;
-  padding: 10px 8px;
+  padding: 8px 6px;
   border-radius: 6px;
-  margin-bottom: 4px;
 }
 
 .sidebar a:hover {
@@ -46,24 +44,4 @@ body {
   width: 100%;
   height: 100%;
   border: none;
-}
-
-/* 中身 */
-.content-inner {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 24px;
-}
-
-.description {
-  color: #555;
-  margin-bottom: 30px;
-}
-
-.entry {
-  margin-bottom: 40px;
-}
-
-.entry h3 {
-  margin-bottom: 10px;
 }
