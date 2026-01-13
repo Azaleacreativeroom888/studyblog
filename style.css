@@ -11,11 +11,12 @@ body {
 
 /* 左 */
 .sidebar {
-  width: 260px;
+  width: 200px;   /* ← ここを細く */
   background: #202123;
   color: #fff;
-  padding: 20px;
+  padding: 16px;  /* 少しだけ詰める */
 }
+
 
 .sidebar h1 {
   font-size: 16px;
