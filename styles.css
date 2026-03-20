@@ -4,6 +4,11 @@ body {
   background: #f7f7f8;
 }
 
+.container {
+     display: flex;
+     align-items: stretch; /* これ重要 */
+}
+
 .app {
   display: flex;
   height: 100vh;
@@ -11,7 +16,7 @@ body {
 
 /* 左 */
 .sidebar {
-  width: 150px;
+  width: 200px;
   background: #202123;
   color: #fff;
   padding: 16px;
