@@ -4,11 +4,6 @@ body {
   background: #f7f7f8;
 }
 
-.container {
-     display: flex;
-     align-items: stretch; /* これ重要 */
-}
-
 .app {
   display: flex;
   height: 100vh;
@@ -37,6 +32,11 @@ body {
 
 .sidebar a:hover {
   background: #2a2b32;
+}
+
+.container {
+     display: flex;
+     align-items: stretch; /* これ重要 */
 }
 
 /* 右 */
